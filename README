@@ -1,0 +1,10 @@
+Mod for Minetest
+
+This mod translates the item description into the language defined in the settings.
+
+Currently supported languages:
+de
+
+license of code: GPLv3 or later
+depends: nothing
+(Softdepends on all supported mods so it gets loaded after them.)
