@@ -1,9 +1,23 @@
-Mod for Minetest
+# Mod for Minetest
 
 This mod translates the item description into the language defined in the settings.
 
 Currently supported languages:
 de
+
+## Adding a new language
+
+* copy sample_language.lua to your own language
+* change its first line (replacing 'sample_language' with your own language code)
+* translate :)
+* adapt init.lua accordingly (both in the includes and condition)
+
+## Adding new strings
+
+* First add them - without translation - to sample_language.lua
+* Then add them again - translated, this time - to any language you want/can.
+
+This way, other translators would only have to "diff" sample_language.lua to keep track of additions.
 
 license of code: GPLv3 or later
 depends: nothing
