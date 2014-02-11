@@ -1,4 +1,4 @@
-vortoj.de = {
+vortoj = {
 	-- bones
 	{"bones:bones",					"Knochen"},
 	

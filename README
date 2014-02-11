@@ -8,9 +8,8 @@ de
 ## Adding a new language
 
 * copy sample_language.lua to your own language
-* change its first line (replacing 'sample_language' with your own language code)
+* rename it according to your own language code, in capital letters
 * translate :)
-* adapt init.lua accordingly (both in the includes and condition)
 
 ## Adding new strings
 
