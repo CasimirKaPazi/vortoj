@@ -70,7 +70,7 @@ vortoj = {
 	{"default:steelblock",				"Stahlblock"},
 	{"default:copperblock",				"Kupferblock"},
 	{"default:mese",					"Mese"},
-	{"default:nyancat",					"Nyan Cat"},
+	{"default:nyancat",					"Mieze Maunze"},
 	{"default:nyancat_rainbow",			"Regenbogen"},
 	{"default:sapling",					"Steckling"},
 	{"default:apple",					"Apfel"},
