@@ -208,10 +208,10 @@ vortoj = {
 	
 	-- screwdriver
 	{"screwdriver:screwdriver",			"Schraubendreher"},
-	{"screwdriver:screwdriver_1",			"Schraubendreher Modus 1"},
-	{"screwdriver:screwdriver_2",			"Schraubendreher Modus 2"},
-	{"screwdriver:screwdriver_3",			"Schraubendreher Modus 3"},
-	{"screwdriver:screwdriver_4",			"Schraubendreher Modus 4"},
+	{"screwdriver:screwdriver1",			"Schraubendreher Modus 1"},
+	{"screwdriver:screwdriver2",			"Schraubendreher Modus 2"},
+	{"screwdriver:screwdriver3",			"Schraubendreher Modus 3"},
+	{"screwdriver:screwdriver4",			"Schraubendreher Modus 4"},
 	
 	-- wool
 	{"wool:white",						"Weiße Wolle"},

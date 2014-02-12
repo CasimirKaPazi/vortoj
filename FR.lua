@@ -209,10 +209,10 @@ vortoj = {
 	
 	-- screwdriver
 	{"screwdriver:screwdriver",			"Tournevis"},
-	{"screwdriver:screwdriver_1",			"Tournevis"},
-	{"screwdriver:screwdriver_2",			"Tournevis"},
-	{"screwdriver:screwdriver_3",			"Tournevis"},
-	{"screwdriver:screwdriver_4",			"Tournevis"},
+	{"screwdriver:screwdriver1",			"Tournevis"},
+	{"screwdriver:screwdriver2",			"Tournevis"},
+	{"screwdriver:screwdriver3",			"Tournevis"},
+	{"screwdriver:screwdriver4",			"Tournevis"},
 	
 	-- wool
 	{"wool:white",						"Laine blanche"},

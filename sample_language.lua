@@ -209,10 +209,10 @@ vortoj.sample_language = {
 	
 	-- screwdriver
 	{"screwdriver:screwdriver",			""},
-	{"screwdriver:screwdriver_1",			""},
-	{"screwdriver:screwdriver_2",			""},
-	{"screwdriver:screwdriver_3",			""},
-	{"screwdriver:screwdriver_4",			""},
+	{"screwdriver:screwdriver1",			""},
+	{"screwdriver:screwdriver2",			""},
+	{"screwdriver:screwdriver3",			""},
+	{"screwdriver:screwdriver4",			""},
 	
 	-- wool
 	{"wool:white",						""},
