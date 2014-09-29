@@ -1,3 +1,4 @@
+boats?
 bones?
 bucket?
 default?
@@ -6,9 +7,9 @@ dye?
 farming?
 fire?
 flowers?
-nodetest?
-pots?
 screwdriver?
 stairs?
+tnt?
 vessels?
 wool?
+xpanes?
