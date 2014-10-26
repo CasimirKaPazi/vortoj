@@ -1,5 +1,9 @@
+3dforniture?
+3d_torch?
+beds?
 bones?
 bucket?
+carts?
 default?
 doors?
 dye?
