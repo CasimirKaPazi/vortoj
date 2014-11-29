@@ -1,8 +1,11 @@
 vortoj = {
-	-- bones
+	-- Boats
+	{"boats:boat",					""},
+	
+	-- Bones
 	{"bones:bones",				            	  "ossa"},
 	
-	-- bucket
+	-- Bucket
 	{"bucket:bucket_empty",			      	  "secchio vuoto"},
 	{"bucket:bucket_water",		      		  "secchio con acqua"},
 	{"bucket:bucket_lava",				        "secchio con lava"},
@@ -100,19 +103,30 @@ vortoj = {
 	{"default:snow",					            "neve"},
 	{"default:snowblock",				          "blocco di neve"},
 	-- tools
+	{"default:pick_bronze",					""},
+	{"default:pick_diamond",				""},
+	{"default:pick_mese",			          	"piccone di mese"},
 	{"default:pick_wood",			          	"piccone di legno"},
 	{"default:pick_stone",	        			"piccone di pietra"},
 	{"default:pick_copper",			        	"piccone di rame"},
 	{"default:pick_steel",			        	"piccone di acciaio"},
-	{"default:pick_mese",			          	"piccone di mese"},
+	{"default:shovel_bronze",				""},
+	{"default:shovel_diamond",				""},
+	{"default:shovel_mese",					""},
 	{"default:shovel_wood",			        	"pala di legno"},
 	{"default:shovel_stone",			      	"pala di pietra"},
 	{"default:shovel_copper",		        	"pala di rame"},
 	{"default:shovel_steel",	      			"pala di acciaio"},
+	{"default:axe_bronze",					""},
+	{"default:axe_diamond",					""},
+	{"default:axe_mese",					""},
 	{"default:axe_wood",			          	"ascia di legno"},
 	{"default:axe_stone",				          "ascia di pietra"},
 	{"default:axe_copper",				        "ascia di rame"},
 	{"default:axe_steel",				          "ascia di acciaio"},
+	{"default:sword_bronze",				""},
+	{"default:sword_diamond",				""},
+	{"default:sword_mese",					""},
 	{"default:sword_wood",				        "spada di legno"},
 	{"default:sword_stone",				        "spada di pietra"},
 	{"default:sword_copper",				      "spada di rame"},
@@ -121,6 +135,9 @@ vortoj = {
 	-- doors
 	{"doors:door_wood",					          "porta di legno"},
 	{"doors:door_steel",				          "porta di acciaio"},
+	{"doors:door_glass",					""},
+	{"doors:door_obsidian_glass",				""},
+	{"doors:trapdoor",					""},
 	
 	-- dye
 	{"dye:white",						              "tintura bianca"},
@@ -144,28 +161,16 @@ vortoj = {
 	{"farming:soil_wet",				          "terra bagnata"},
 	{"farming:seed_cotton",				        "seme di cotone"},
 	{"farming:cotton",					          "cotone"},
-	{"farming:cotton_1",				          "cotone 1"},
-	{"farming:cotton_2",				          "cotone 2"},
-	{"farming:cotton_3",				          "cotone 3"},
-	{"farming:cotton_4",				          "cotone 4"},
-	{"farming:cotton_5",				          "cotone 5"},
 	{"farming:string",					          "filo"},
 	{"farming:hoe_wood",				          "zappa di legno"},
 	{"farming:hoe_stone",				          "zappa di pietra"},
 	{"farming:hoe_steel",				          "zappa di acciaio"},
 	{"farming:hoe_bronze",				        "zappa di bronzo"},
 	{"farming:hoe_mese",				          "zappa di mese"},
+	{"farming:hoe_diamond",				          ""},
 	{"farming:weed",					            "erbaccia"},
 	{"farming:seed_wheat",				        "seme di grano"},
 	{"farming:wheat",					            "grano"},
-	{"farming:wheat_1",					          "grano 1"},
-	{"farming:wheat_2",					          "grano 2"},
-	{"farming:wheat_3",					          "grano 3"},
-	{"farming:wheat_4",					          "grano 4"},
-	{"farming:wheat_5",					          "grano 5"},
-	{"farming:wheat_6",					          "grano 6"},
-	{"farming:wheat_7",					          "grano 7"},
-	{"farming:wheat_8",					          "grano 8"},
 	{"farming:flour",					            "farina"},
 	{"farming:dough",					            "impasto"},
 	{"farming:bread",					            "pane"},
@@ -181,38 +186,48 @@ vortoj = {
 	{"flowers:tulip",					            "tulipano"},
 	{"flowers:viola",					            "viola"},
 	
-	-- nodetest
-	{"nodetest:bone",					            "osso"},
-	{"nodetest:desert_sandstone",			    "arenaria del deserto"},
-	{"nodetest:rock",					            "roccia"},
-	{"nodetest:tree_horizontal",			    "albero orizzontale"},
-	{"nodetest:jungletree_horizontal",		"albero della giungla orizzontale"},
-	{"nodetest:papyrus_roots",			      "radici di papiro"},
-	{"nodetest:conifersapling",			      "alberello di conifera"},
-	{"nodetest:conifertree",				      "albero di conifera"},
-	{"nodetest:coniferleaves_1",			    "foglie di conifera 1"},
-	{"nodetest:coniferleaves_2",			    "foglie di conifera 2"},
-	{"nodetest:conifertree_horizontal",	  "albero di conifera orizzontale"},
-	{"nodetest:spearwood",				        "lancia di legno"},
-	{"nodetest:spearstone",				        "lancia di pietra"},
-	
-	-- pots
-	{"pots:pot",						              "vaso"},
-	{"pots:cactus",					              "cactus"},
-	{"pots:dandelion_white",				      "dente di leone bianco"},
-	{"pots:dandelion_yellow",			        "dente di leone giallo"},
-	{"pots:geranium",					            "geranio"},
-	{"pots:rose",						              "rosa"},
-	{"pots:tulip",						            "tulipano"},
-	{"pots:viola",						            "viola"},
-	{"pots:viola",						            "viola"},
-	
 	-- screwdriver
 	{"screwdriver:screwdriver",			      "cacciavite"},
 	{"screwdriver:screwdriver1",			    "cacciavite 1"},
 	{"screwdriver:screwdriver2",			    "cacciavite 2"},
 	{"screwdriver:screwdriver3",			    "cacciavite 3"},
 	{"screwdriver:screwdriver4",			    "cacciavite 4"},
+	
+	-- Stairs
+	--Slab
+	{"stairs:slab_wood",					""},
+	{"stairs:slab_stone",					""},
+	{"stairs:slab_cobble",					""},
+	{"stairs:slab_desert_stone",				""},
+	{"stairs:slab_desert_cobble",				""},
+	{"stairs:slab_desert_stonebrick",			""},
+	{"stairs:slab_brick",					""},
+	{"stairs:slab_sandstone",				""},
+	{"stairs:slab_sandstonebrick",				""},
+	{"stairs:slab_junglewood",				""},
+	{"stairs:slab_stonebrick",				""},
+	--Stair
+	{"stairs:stair_wood",					""},
+	{"stairs:stair_stone",					""},
+	{"stairs:stair_cobble",					""},
+	{"stairs:stair_desert_stone",				""},
+	{"stairs:stair_desert_cobble",				""},
+	{"stairs:stair_desert_stonebrick",			""},
+	{"stairs:stair_brick",					""},
+	{"stairs:stair_sandstone",				""},
+	{"stairs:stair_sandstonebrick",				""},
+	{"stairs:stair_junglewood",				""},
+	{"stairs:stair_stonebrick",				""},
+	
+	-- TNT
+	{"tnt:tnt",					"TNT"},
+	{"tnt:gunpowder",					""},
+	
+	-- vessels
+	{"vessels:glass_bottle",				      "bottiglia di vetro"},
+	{"vessels:drinking_glass",			      "bicchiere"},
+	{"vessels:steel_bottle",				      "bottiglia di acciaio"},
+	{"vessels:glass_fragments",			      "cocci di vetro"},
 	
 	-- wool
 	{"wool:white",						            "lana bianca"},
@@ -230,10 +245,8 @@ vortoj = {
 	{"wool:red",						              "lana rossa"},
 	{"wool:magenta",					            "lana magenta"},
 	{"wool:pink",						              "lana rosa"},
-
-	-- vessels
-	{"vessels:glass_bottle",				      "bottiglia di vetro"},
-	{"vessels:drinking_glass",			      "bicchiere"},
-	{"vessels:steel_bottle",				      "bottiglia di acciaio"},
-	{"vessels:glass_fragments",			      "cocci di vetro"},
+	
+	-- Xpanes
+	{"xpanes:pane",					""},
+	{"xpanes:bar",					""},
 }
