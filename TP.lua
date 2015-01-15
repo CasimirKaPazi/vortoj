@@ -8,8 +8,8 @@ vortoj = {
 	
 	-- bucket
 	{"bucket:bucket_empty",				"poki telo li ala"},
-	{"bucket:bucket_water",				"poki telo li jo telo"},
-	{"bucket:bucket_lava",				"poki telo li jo telo kiwen seli"},
+	{"bucket:bucket_water",				"poki telo li jo e telo"},
+	{"bucket:bucket_lava",				"poki telo li jo e telo kiwen seli"},
 
 	-- carts
 	{"carts:cart",					"tomo tawa"},
