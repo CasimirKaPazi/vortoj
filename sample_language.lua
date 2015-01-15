@@ -1,4 +1,7 @@
-vortoj.sample_language = {
+vortoj = {
+	-- beds
+	{"beds:bed",					""},
+
 	-- bones
 	{"bones:bones",					""},
 	
@@ -6,6 +9,11 @@ vortoj.sample_language = {
 	{"bucket:bucket_empty",				""},
 	{"bucket:bucket_water",				""},
 	{"bucket:bucket_lava",				""},
+
+	-- carts
+	{"carts:cart",					""},
+	{"carts:powerrail",				""},
+	{"carts:brakerail",				""},
 	
 	-- default
 	-- craftitems
@@ -149,7 +157,7 @@ vortoj.sample_language = {
 	{"farming:cotton_3",				""},
 	{"farming:cotton_4",				""},
 	{"farming:cotton_5",				""},
-	{"farming:sting",					""},
+	{"farming:string",					""},
 	{"farming:hoe_wood",				""},
 	{"farming:hoe_stone",				""},
 	{"farming:hoe_steel",				""},
@@ -188,31 +196,30 @@ vortoj.sample_language = {
 	{"nodetest:tree_horizontal",			""},
 	{"nodetest:jungletree_horizontal",		""},
 	{"nodetest:papyrus_roots",			""},
-	{"nodetest:conifersapling",			""},
-	{"nodetest:conifertree",				""},
-	{"nodetest:coniferleaves_1",			""},
-	{"nodetest:coniferleaves_2",			""},
-	{"nodetest:conifertree_horizontal",	""},
+--	{"nodetest:conifersapling",			""},
+--	{"nodetest:conifertree",				""},
+--	{"nodetest:coniferleaves_1",			""},
+--	{"nodetest:coniferleaves_2",			""},
+--	{"nodetest:conifertree_horizontal",	""},
 	{"nodetest:spearwood",				""},
 	{"nodetest:spearstone",				""},
 	
 	-- pots
-	{"pots:pot",						""},
-	{"pots:cactus",					""},
-	{"pots:dandelion_white",				""},
-	{"pots:dandelion_yellow",			""},
-	{"pots:geranium",					""},
-	{"pots:rose",						""},
-	{"pots:tulip",						""},
-	{"pots:viola",						""},
-	{"pots:viola",						""},
+--	{"pots:pot",						""},
+--	{"pots:cactus",					""},
+--	{"pots:dandelion_white",				""},
+--	{"pots:dandelion_yellow",			""},
+--	{"pots:geranium",					""},
+--	{"pots:rose",						""},
+--	{"pots:tulip",						""},
+--	{"pots:viola",						""},
 	
 	-- screwdriver
 	{"screwdriver:screwdriver",			""},
-	{"screwdriver:screwdriver1",			""},
-	{"screwdriver:screwdriver2",			""},
-	{"screwdriver:screwdriver3",			""},
-	{"screwdriver:screwdriver4",			""},
+--	{"screwdriver:screwdriver1",			""},
+--	{"screwdriver:screwdriver2",			""},
+--	{"screwdriver:screwdriver3",			""},
+--	{"screwdriver:screwdriver4",			""},
 	
 	-- wool
 	{"wool:white",						""},
