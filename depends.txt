@@ -1,6 +1,7 @@
 3dforniture?
 3d_torch?
 beds?
+boats?
 bones?
 bucket?
 carts?
@@ -14,5 +15,7 @@ nodetest?
 pots?
 screwdriver?
 stairs?
+tnt?
 vessels?
 wool?
+xpanes?
