@@ -1,5 +1,5 @@
 -- toki pona
-vortoj = {
+return {
 	-- beds
 	{"beds:bed",					"supa lape"},
 

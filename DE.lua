@@ -1,4 +1,4 @@
-vortoj = {
+return {
 	-- core
 	{"air",						"Luft (Sie Schummler!)"},
 	{"ignore",					"ignorieren (Sie Schummler!)"},

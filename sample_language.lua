@@ -1,4 +1,4 @@
-vortoj = {
+return {
 	-- beds
 	{"beds:bed",					""},
 

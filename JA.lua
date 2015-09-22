@@ -1,4 +1,4 @@
-vortoj = {
+return {
 	-- Carts
 	{"carts:cart",					"トロッコ"},
 	{"carts:powerrail",					"パワードレール"},

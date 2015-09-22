@@ -1,4 +1,4 @@
-vortoj = {
+return {
 	-- bones
 	{"bones:bones",				            	  "ossa"},
 	

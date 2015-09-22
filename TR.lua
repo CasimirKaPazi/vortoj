@@ -3,7 +3,7 @@
 ----
 
 
-vortoj = {
+return {
 	-- beds
 	{"beds:bed",					"Yatak"},
 
