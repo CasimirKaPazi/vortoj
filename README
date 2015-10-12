@@ -3,7 +3,7 @@
 This mod translates the item description into the language defined in the settings.
 
 Currently supported languages:
-DE, FR,
+DE, ES, FR, ID, IT, JA, TP, TR
 
 ## Adding a new language
 
