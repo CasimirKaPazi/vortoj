@@ -1,11 +1,18 @@
-local language = string.upper(minetest.setting_get("language"))
+local language = minetest.setting_get("language"):upper()
 
-if io.open(minetest.get_modpath("vortoj").."/".. language ..".lua") then
-	local vortoj = dofile(minetest.get_modpath("vortoj").."/".. language ..".lua")
+local modpath = minetest.get_modpath("vortoj")
+local filepath = modpath.."/"..language..".lua"
 
-	for _,item in ipairs(vortoj) do
-		if minetest.registered_items[item[1]] and item[2] ~= "" then
-			minetest.override_item(item[1], {description = item[2]})
+local file = io.open(filepath)
+
+if file then
+	file:close()
+
+	local vortoj = dofile(filepath)
+
+	for item, translate in pairs(vortoj) do
+		if minetest.registered_items[item] and translate ~= "" then
+			minetest.override_item(item, {description = translate})
 		end
 	end
 end
