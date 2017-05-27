@@ -6,6 +6,8 @@ This mod translates the item description into the language defined in the settin
 Currently supported languages:
 DE, ES, FR, ID, IT, JA, TP, TR
 
+This mod softdepends on all supported mods so it gets loaded after them.
+
 Adding a new language
 ---------------------
 
@@ -21,6 +23,15 @@ Adding new strings
 
 This way, other translators would only have to "diff" sample_language.lua to keep track of additions.
 
-license of code: GPLv3 or later
-depends: nothing
-(Softdepends on all supported mods so it gets loaded after them.)
+License
+-------
+
+License of source code: GPLv3 or later
+
+License of translations: Translations undefined for license fall back to GPLv3. Others should use CC0.
+Also sample_language.lua is licenced as CC0 for reuse.
+
+Translations currently undefined: DE, ES, FR, ID, IT, JA, TP, TR
+
+Translations licensed as CC0:
+Translators who agreed to relicence their translations: CasimirKaPazi,
