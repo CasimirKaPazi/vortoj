@@ -1,7 +1,7 @@
 ----
 -- Türkçeleştiren mahmutelmas06@hotmail.com
 ----
-
+-- Licence for this file and translations: CC0
 
 return {
 	-- beds

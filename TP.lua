@@ -1,4 +1,6 @@
 -- toki pona
+-- Licence for this file and translations: CC0
+
 return {
 	-- beds
 	{"beds:bed",					"supa lape"},

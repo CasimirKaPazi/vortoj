@@ -29,9 +29,8 @@ License
 License of source code: GPLv3 or later
 
 License of translations: Translations undefined for license fall back to GPLv3. Others should use CC0.
-Also sample_language.lua is licenced as CC0 for reuse.
+Also sample_language.lua is licensed as CC0 for reuse.
 
-Translations currently undefined: DE, ES, FR, ID, IT, JA, TP, TR
+Translations currently undefined: FR, IT, JA
 
-Translations licensed as CC0:
-Translators who agreed to relicence their translations: CasimirKaPazi,
+Translations licensed as CC0: DE, ES, ID, TP, TR

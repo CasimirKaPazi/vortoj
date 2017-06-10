@@ -1,3 +1,5 @@
+-- Licence for this file and translations: CC0
+
 return {
 	-- core
 	{"air",						"Luft (Sie Schummler!)"},
