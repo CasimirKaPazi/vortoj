@@ -1,5 +1,9 @@
 local language = string.upper(minetest.setting_get("language"))
 
+if "" == language then
+	language = string.upper(string.match(os.getenv("LANG"), "[^_]*"))
+end
+
 if io.open(minetest.get_modpath("vortoj").."/".. language ..".lua") then
 	local vortoj = dofile(minetest.get_modpath("vortoj").."/".. language ..".lua")
 
