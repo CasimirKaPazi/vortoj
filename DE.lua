@@ -20,6 +20,11 @@ return {
 	{"bucket:bucket_water",				"Eimer mit Wasser"},
 	{"bucket:bucket_river_water",			"Eimer mit Flusswasser"},
 	{"bucket:bucket_lava",				"Eimer mit Lava"},
+
+	-- carts
+	{"carts:brakerail",				"Bremsschiene"},
+	{"carts:powerrail",				"Beschleunigungsschiene"},
+	{"carts:cart",					"Wagen"},
 	
 	-- default
 	-- craftitems
@@ -42,10 +47,17 @@ return {
 	{"default:clay_brick",				"Tonziegel"},
 	{"default:scorched_stuff",			"verbranntes Zeug"},
 	{"default:obsidian_shard",			"Obsidiansplitter"},
+	{"default:coral_skeleton",			"Korallenskelett"},
+	{"default:coral_orange",			"orangefarbene Koralle"},
+	{"default:coral_brown",				"braune Koralle"},
 	-- nodes
 	{"default:stone",				"Stein"},
 	{"default:desert_stone",			"Wüstenstein"},
+	{"default:desert_stone_block",			"Wüstensteinblock"},
 	{"default:desert_cobble",			"Wüstenpflasterstein"},
+	{"default:desert_sandstone",			"Wüstensandstein"},
+	{"default:desert_sandstone_block",		"Wüstensandsteinblock"},
+	{"default:desert_sandstone_brick",		"behauener Wüstensandstein"},
 	{"default:stone_with_coal",			"Kohle in Stein"},
 	{"default:stone_with_iron",			"Eisenerz in Stein"},
 	{"default:stone_with_copper",			"Kupfererz in Stein"},
@@ -56,6 +68,7 @@ return {
 	{"default:desert_stonebrick",			"behauener Wüstenstein"},
 	{"default:dirt_with_grass",			"Erde mit Gras"},
 	{"default:dirt_with_grass_footsteps",		"Erde mit Gras und Fußspuren"},
+	{"default:dirt_with_rainforest_litter",		"Regenwalderde"},
 	{"default:dirt_with_dry_grass",			"Erde mit trockenem Gras"},
 	{"default:dirt_with_snow",			"Erde mit Schnee"},
 	{"default:dirt",				"Erde"},
@@ -77,6 +90,10 @@ return {
 	{"default:papyrus",				"Papyrus"},
 	{"default:bookshelf",				"Bücherschrank"},
 	{"default:glass",				"Glas"},
+	{"default:fence_junglewood",			"Dschungelholzzaun"},
+	{"default:fence_aspen_wood",			"Espenholzzaun"},
+	{"default:fence_acacia_wood",			"Akazienholzzaun"},
+	{"default:fence_pine_wood",			"Kiefernholzzaun"},
 	{"default:fence_wood",				"Holzzaun"},
 	{"default:rail",				"Schiene"},
 	{"default:ladder",				"Leiter"},
@@ -128,10 +145,20 @@ return {
 	{"default:pine_sapling",			"Kiefersetzling"},
 	{"default:pinetree",				"Kieferbaum"},
 	{"default:pinewood",				"Kieferholzplanken"},
+	{"default:acacia_bush_leaves",			"Akazienbuschblätter"},
+	{"default:acacia_bush_sapling",			"Akazienbuschsetzling"},
+	{"default:acacia_bush_stem",			"Akazienbuschstamm"},
 	{"default:acacia_leaves",			"Akazienblätter"},
 	{"default:acacia_sapling",			"Akaziensetzling"},
 	{"default:acacia_tree",				"Akazienbaum"},
 	{"default:acacia_wood",				"Akazienholzplanken"},
+	{"default:aspen_leaves",			"Espenblätter"},
+	{"default:aspen_sapling",			"Espensetzling"},
+	{"default:aspen_tree",				"Espenbaum"},
+	{"default:aspen_wood",				"Espenholzplanken"},
+	{"default:bush_leaves",				"Buschblätter"},
+	{"default:bush_sapling",			"Buschsetzling"},
+	{"default:bush_stem",				"Buschstamm"},
 	{"default:meselamp",				"Meselampe"},
 	-- tools
 	{"default:pick_wood",				"Holzspitzhacke"},
@@ -231,7 +258,6 @@ return {
 	
 	-- nodetest
 	{"nodetest:bone",				"Knochen"},
-	{"nodetest:desert_sandstone",			"Wüstensandstein"},
 	{"nodetest:rock",				"Felsen"},
 	{"nodetest:tree_horizontal",			"liegender Baum"},
 	{"nodetest:jungletree_horizontal",		"liegender Dschungelbaum"},
