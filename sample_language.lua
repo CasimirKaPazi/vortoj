@@ -129,6 +129,19 @@ return {
 	{"default:bush_leaves",				""},
 	{"default:bush_sapling",			""},
 	{"default:bush_stem",				""},
+	{"default:tin_lump",				""},
+	{"default:tin_ingot",				""},
+	{"default:stone_block",				""},
+	{"default:stone_with_tin",			""},
+	{"default:sandstone_block",			""},
+	{"default:silver_sand",				""},
+	{"default:silver_sandstone",			""},
+	{"default:silver_sandstone_block",		""},
+	{"default:silver_sandstone_brick",		""},
+	{"default:ladder_steel",			""},
+	{"default:tinblock",				""},
+	{"default:obsidian_block",			""},
+	{"default:mese_post_light",			""},
 	-- tools
 	{"default:pick_wood",				""},
 	{"default:pick_stone",				""},
@@ -147,6 +160,7 @@ return {
 	{"default:sword_stone",				""},
 	{"default:sword_copper",				""},
 	{"default:sword_steel",				""},
+	{"default:skeleton_key",			""},
 	
 	-- doors
 	{"doors:door_wood",					""},
