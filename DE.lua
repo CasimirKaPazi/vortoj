@@ -206,6 +206,12 @@ return {
 	{"doors:door_glass",				"Glastür"},
 	{"doors:door_obsidian_glass",			"Obsidianglastür"},
 	{"doors:trapdoor",				"Falltür"},
+	{"doors:trapdoor_steel",			"Stahlfalltür"},
+	{"doors:gate_junglewood_closed",		"Dschungelholzzauntür"},
+	{"doors:gate_aspen_wood_closed",		"Espenholzzauntür"},
+	{"doors:gate_acacia_wood_closed",		"Akazienholzzauntür"},
+	{"doors:gate_pine_wood_closed",			"Kiefernholzzauntür"},
+	{"doors:gate_wood_closed",			"Holzzauntür"},
 	
 	-- dye
 	{"dye:white",					"weißer Farbstoff"},
@@ -257,6 +263,8 @@ return {
 	
 	-- fire
 	{"fire:basic_flame",				"Feuer"},
+	{"fire:permanent_flame",			"permanentes Feuer"},
+	{"fire:flint_and_steel",			"Feuerstein und Stahl"},
 	
 	-- flowers
 	{"flowers:dandelion_white",			"Pusteblume"},
@@ -269,6 +277,7 @@ return {
 	{"flowers:mushroom_brown",			"brauner Pilz"},
 	{"flowers:mushroom_spores_red",			"rote Pilzsporen"},
 	{"flowers:mushroom_spores_brown",		"braune Pilzsporen"},
+	{"flowers:waterlily",				"Seerose"},
 	
 	-- nodetest
 	{"nodetest:bone",				"Knochen"},

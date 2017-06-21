@@ -165,6 +165,12 @@ return {
 	-- doors
 	{"doors:door_wood",					""},
 	{"doors:door_steel",				""},
+	{"doors:trapdoor_steel",			""},
+	{"doors:gate_junglewood_closed",		""},
+	{"doors:gate_aspen_wood_closed",		""},
+	{"doors:gate_acacia_wood_closed",		""},
+	{"doors:gate_pine_wood_closed",			""},
+	{"doors:gate_wood_closed",			""},
 	
 	-- dye
 	{"dye:white",						""},
@@ -216,6 +222,8 @@ return {
 	
 	-- fire
 	{"fire:basic_flame",				""},
+	{"fire:permanent_flame",			""},
+	{"fire:flint_and_steel",			""},
 	
 	-- flowers
 	{"flowers:dandelion_white",			""},
@@ -224,6 +232,7 @@ return {
 	{"flowers:rose",					""},
 	{"flowers:tulip",					""},
 	{"flowers:viola",					""},
+	{"flowers:waterlily",				""},
 	
 	-- nodetest
 	{"nodetest:bone",					""},
