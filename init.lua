@@ -1,7 +1,12 @@
 local language = string.upper(minetest.setting_get("language"))
 
 if "" == language then
-	language = string.upper(string.match(os.getenv("LANG"), "[^_]*"))
+	local env = os.getenv("LANG")
+	if nil ~= env then
+		language = string.upper(string.match(env, "[^_]*"))
+	else
+		language = "EN"
+	end
 end
 
 if io.open(minetest.get_modpath("vortoj").."/".. language ..".lua") then
