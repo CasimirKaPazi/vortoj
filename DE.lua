@@ -24,7 +24,7 @@ return {
 	-- carts
 	{"carts:brakerail",				"Bremsschiene"},
 	{"carts:powerrail",				"Beschleunigungsschiene"},
-	{"carts:cart",					"Wagen"},
+	{"carts:cart",					"Lore"},
 	
 	-- default
 	-- craftitems
@@ -331,6 +331,7 @@ return {
 	{"stairs:slab_wood",				"Holzplatte"},
 	{"stairs:slab_junglewood",			"Dschungelholzplatte"},
 	{"stairs:slab_pinewood",			"Kieferholzplatte"},
+	{"stairs:slab_aspen_wood",			"Espenholzplatte"},
 	{"stairs:slab_acacia_wood",			"Akazienholzplatte"},
 	{"stairs:slab_stone",				"Steinplatte"},
 	{"stairs:slab_cobble",				"Pflastersteinplatte"},

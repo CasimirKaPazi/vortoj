@@ -265,6 +265,9 @@ return {
 --	{"screwdriver:screwdriver3",			""},
 --	{"screwdriver:screwdriver4",			""},
 	
+	-- stairs
+	{"stairs:slab_aspen_wood",			""},
+
 	-- wool
 	{"wool:white",						""},
 	{"wool:grey",						""},
