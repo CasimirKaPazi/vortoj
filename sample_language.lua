@@ -267,6 +267,33 @@ return {
 	
 	-- stairs
 	{"stairs:slab_aspen_wood",			""},
+	{"stairs:stair_ice",				""},
+	{"stairs:stair_snowblock",			""},
+	{"stairs:stair_aspen_wood",			""},
+	{"stairs:stair_stone_block",			""},
+	{"stairs:stair_mossycobble",			""},
+	{"stairs:stair_silver_sandstone",		""},
+	{"stairs:stair_silver_sandstone_block",		""},
+	{"stairs:stair_silver_sandstone_brick",		""},
+	{"stairs:stair_sandstone_block",		""},
+	{"stairs:stair_desert_sandstone",		""},
+	{"stairs:stair_desert_sandstone_block",		""},
+	{"stairs:stair_desert_sandstone_brick",		""},
+	{"stairs:stair_desert_stone_block",		""},
+	{"stairs:stair_obsidian_block",			""},
+	{"stairs:slab_ice",				""},
+	{"stairs:slab_snowblock",			""},
+	{"stairs:slab_stone_block",			""},
+	{"stairs:slab_mossycobble",			""},
+	{"stairs:slab_silver_sandstone",		""},
+	{"stairs:slab_silver_sandstone_block",		""},
+	{"stairs:slab_silver_sandstone_brick",		""},
+	{"stairs:slab_sandstone_block",			""},
+	{"stairs:slab_desert_stone_block",		""},
+	{"stairs:slab_desert_sandstone",		""},
+	{"stairs:slab_desert_sandstone_block",		""},
+	{"stairs:slab_desert_sandstone_brick",		""},
+	{"stairs:slab_obsidian_block",			""},
 
 	-- wool
 	{"wool:white",						""},
@@ -290,4 +317,10 @@ return {
 	{"vessels:drinking_glass",			""},
 	{"vessels:steel_bottle",				""},
 	{"vessels:glass_fragments",			""},
+
+	-- walls
+	{"walls:cobble",				""},
+	{"walls:mossycobble",				""},
+	{"walls:desertcobble",				""},
 }
+
