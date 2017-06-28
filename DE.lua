@@ -122,7 +122,7 @@ return {
 	{"default:furnace",				"Ofen"},
 	{"default:furnace_active",			"Ofen"},
 	{"default:cobble",				"Pflasterstein"},
-	{"default:mossycobble",				"bemoster Pflasterstein"},
+	{"default:mossycobble",				"bemooster Pflasterstein"},
 	{"default:coalblock",				"Kohleblock"},
 	{"default:steelblock",				"Stahlblock"},
 	{"default:copperblock",				"Kupferblock"},
@@ -316,7 +316,7 @@ return {
 	{"stairs:stair_aspen_wood",			"Espenholztreppe"},
 	{"stairs:stair_stone",				"Steintreppe"},
 	{"stairs:stair_stone_block",			"Steinblocktreppe"},
-	{"stairs:stair_mossycobble",			"bemoste Pflastersteintreppe"},
+	{"stairs:stair_mossycobble",			"bemooste Pflastersteintreppe"},
 	{"stairs:stair_cobble",				"Pflastersteintreppe"},
 	{"stairs:stair_stonebrick",			"behauene Steintreppe"},
 	{"stairs:stair_silver_sandstone",		"Silbersandsteintreppe"},
@@ -352,7 +352,7 @@ return {
 	{"stairs:slab_stone",				"Steinplatte"},
 	{"stairs:slab_stone_block",			"Steinblockplatte"},
 	{"stairs:slab_cobble",				"Pflastersteinplatte"},
-	{"stairs:slab_mossycobble",			"bemoste Pflastersteinplatte"},
+	{"stairs:slab_mossycobble",			"bemooste Pflastersteinplatte"},
 	{"stairs:slab_stonebrick",			"behauene Steinplatte"},
 	{"stairs:slab_silver_sandstone",		"Silbersandsteinplatte"},
 	{"stairs:slab_silver_sandstone_block",		"Silbersandsteinblockplatte"},
@@ -407,7 +407,7 @@ return {
 
 	-- walls
 	{"walls:cobble",				"Pflastersteinmauer"},
-	{"walls:mossycobble",				"bemoste Pflastersteinmauer"},
+	{"walls:mossycobble",				"bemooste Pflastersteinmauer"},
 	{"walls:desertcobble",				"Wüstenpflastersteinmauer"},
 
 	-- xpanes
