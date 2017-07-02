@@ -411,7 +411,7 @@ return {
 	{"walls:desertcobble",				"Wüstenpflastersteinmauer"},
 
 	-- xpanes
-	{"xpanes:bar",					"Eisenstäbe"},
-	{"xpanes:pane",					"Glasscheibe"},
+	{"xpanes:bar_flat",				"Eisenstäbe"},
+	{"xpanes:pane_flat",				"Glasscheibe"},
 }
 
