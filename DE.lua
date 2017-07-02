@@ -67,7 +67,7 @@ return {
 	{"default:stone_with_mese",			"Meseerz in Stein"},
 	{"default:stone_with_gold",			"Golderz in Stein"},
 	{"default:stone_with_diamond",			"Rohdiamant in Stein"},
-	{"default:stone_with_tin",			"Zinn in Stein"},
+	{"default:stone_with_tin",			"Zinnerz in Stein"},
 	{"default:stonebrick",				"behauener Stein"},
 	{"default:desert_stonebrick",			"behauener Wüstenstein"},
 	{"default:dirt_with_grass",			"Erde mit Gras"},
