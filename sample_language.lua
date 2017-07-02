@@ -322,5 +322,9 @@ return {
 	{"walls:cobble",				""},
 	{"walls:mossycobble",				""},
 	{"walls:desertcobble",				""},
+
+	-- xpanes
+	{"xpanes:bar_flat",				""},
+	{"xpanes:pane_flat",				""},
 }
 
