@@ -49,7 +49,7 @@ return {
 	{"default:stone_with_coal",			"Камень с углём"},
 	{"default:stone_with_iron",			"Камень с железом"},
 	{"default:stone_with_copper",			"Камень с медью"},
-	{"default:stone_with_mese",			"Камень со светящимя камнем"},
+	{"default:stone_with_mese",			"Камень со светящимся камнем"},
 	{"default:stone_with_gold",			"Камен с золотом"},
 	{"default:stone_with_diamond",			"Камень с алмазом"},
 	{"default:stonebrick",				"Каменный кирпич"},
