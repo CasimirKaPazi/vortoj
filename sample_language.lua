@@ -107,6 +107,41 @@ return {
 	{"default:ice",					""},
 	{"default:snow",					""},
 	{"default:snowblock",				""},
+	{"default:coral_skeleton",			""},
+	{"default:coral_orange",			""},
+	{"default:coral_brown",				""},
+	{"default:desert_stone_block",			""},
+	{"default:desert_sandstone",			""},
+	{"default:desert_sandstone_block",		""},
+	{"default:desert_sandstone_brick",		""},
+	{"default:dirt_with_rainforest_litter",		""},
+	{"default:fence_junglewood",			""},
+	{"default:fence_aspen_wood",			""},
+	{"default:fence_acacia_wood",			""},
+	{"default:fence_pine_wood",			""},
+	{"default:acacia_bush_leaves",			""},
+	{"default:acacia_bush_sapling",			""},
+	{"default:acacia_bush_stem",			""},
+	{"default:aspen_leaves",			""},
+	{"default:aspen_sapling",			""},
+	{"default:aspen_tree",				""},
+	{"default:aspen_wood",				""},
+	{"default:bush_leaves",				""},
+	{"default:bush_sapling",			""},
+	{"default:bush_stem",				""},
+	{"default:tin_lump",				""},
+	{"default:tin_ingot",				""},
+	{"default:stone_block",				""},
+	{"default:stone_with_tin",			""},
+	{"default:sandstone_block",			""},
+	{"default:silver_sand",				""},
+	{"default:silver_sandstone",			""},
+	{"default:silver_sandstone_block",		""},
+	{"default:silver_sandstone_brick",		""},
+	{"default:ladder_steel",			""},
+	{"default:tinblock",				""},
+	{"default:obsidian_block",			""},
+	{"default:mese_post_light",			""},
 	-- tools
 	{"default:pick_wood",				""},
 	{"default:pick_stone",				""},
@@ -125,10 +160,17 @@ return {
 	{"default:sword_stone",				""},
 	{"default:sword_copper",				""},
 	{"default:sword_steel",				""},
+	{"default:skeleton_key",			""},
 	
 	-- doors
 	{"doors:door_wood",					""},
 	{"doors:door_steel",				""},
+	{"doors:trapdoor_steel",			""},
+	{"doors:gate_junglewood_closed",		""},
+	{"doors:gate_aspen_wood_closed",		""},
+	{"doors:gate_acacia_wood_closed",		""},
+	{"doors:gate_pine_wood_closed",			""},
+	{"doors:gate_wood_closed",			""},
 	
 	-- dye
 	{"dye:white",						""},
@@ -180,6 +222,8 @@ return {
 	
 	-- fire
 	{"fire:basic_flame",				""},
+	{"fire:permanent_flame",			""},
+	{"fire:flint_and_steel",			""},
 	
 	-- flowers
 	{"flowers:dandelion_white",			""},
@@ -188,10 +232,10 @@ return {
 	{"flowers:rose",					""},
 	{"flowers:tulip",					""},
 	{"flowers:viola",					""},
+	{"flowers:waterlily",				""},
 	
 	-- nodetest
 	{"nodetest:bone",					""},
-	{"nodetest:desert_sandstone",			""},
 	{"nodetest:rock",					""},
 	{"nodetest:tree_horizontal",			""},
 	{"nodetest:jungletree_horizontal",		""},
@@ -221,6 +265,36 @@ return {
 --	{"screwdriver:screwdriver3",			""},
 --	{"screwdriver:screwdriver4",			""},
 	
+	-- stairs
+	{"stairs:slab_aspen_wood",			""},
+	{"stairs:stair_ice",				""},
+	{"stairs:stair_snowblock",			""},
+	{"stairs:stair_aspen_wood",			""},
+	{"stairs:stair_stone_block",			""},
+	{"stairs:stair_mossycobble",			""},
+	{"stairs:stair_silver_sandstone",		""},
+	{"stairs:stair_silver_sandstone_block",		""},
+	{"stairs:stair_silver_sandstone_brick",		""},
+	{"stairs:stair_sandstone_block",		""},
+	{"stairs:stair_desert_sandstone",		""},
+	{"stairs:stair_desert_sandstone_block",		""},
+	{"stairs:stair_desert_sandstone_brick",		""},
+	{"stairs:stair_desert_stone_block",		""},
+	{"stairs:stair_obsidian_block",			""},
+	{"stairs:slab_ice",				""},
+	{"stairs:slab_snowblock",			""},
+	{"stairs:slab_stone_block",			""},
+	{"stairs:slab_mossycobble",			""},
+	{"stairs:slab_silver_sandstone",		""},
+	{"stairs:slab_silver_sandstone_block",		""},
+	{"stairs:slab_silver_sandstone_brick",		""},
+	{"stairs:slab_sandstone_block",			""},
+	{"stairs:slab_desert_stone_block",		""},
+	{"stairs:slab_desert_sandstone",		""},
+	{"stairs:slab_desert_sandstone_block",		""},
+	{"stairs:slab_desert_sandstone_brick",		""},
+	{"stairs:slab_obsidian_block",			""},
+
 	-- wool
 	{"wool:white",						""},
 	{"wool:grey",						""},
@@ -243,4 +317,14 @@ return {
 	{"vessels:drinking_glass",			""},
 	{"vessels:steel_bottle",				""},
 	{"vessels:glass_fragments",			""},
+
+	-- walls
+	{"walls:cobble",				""},
+	{"walls:mossycobble",				""},
+	{"walls:desertcobble",				""},
+
+	-- xpanes
+	{"xpanes:bar_flat",				""},
+	{"xpanes:pane_flat",				""},
 }
+
